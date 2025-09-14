@@ -3,3 +3,7 @@ part 1
 ![WhatsApp Image 2025-09-14 at 14 52 32_b3e18d6d](https://github.com/user-attachments/assets/0fb2e670-e1d2-42d7-86f3-bac7e47f1097)
 ![WhatsApp Image 2025-09-14 at 15 00 39_7ed735bf](https://github.com/user-attachments/assets/f13aba5c-a873-473e-80ac-ff8122472fe4)
 ![WhatsApp Image 2025-09-14 at 15 02 01_41fc07a7](https://github.com/user-attachments/assets/d2c57aa3-5cd6-4fc7-81af-0275e92f9515)
+
+
+part 2 
+![WhatsApp Image 2025-09-14 at 15 38 35_30fd8ffa](https://github.com/user-attachments/assets/81a0d375-eafd-403c-94ac-1a5f0624412a)

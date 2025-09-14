@@ -20,5 +20,7 @@ foto outputnya sama
 
 assignment
 
-<img width="374" height="201" alt="image" src="https://github.com/user-attachments/assets/cc31d1f1-b84a-48eb-9331-9ee9ef16dd7d" />
-![WhatsApp Image 2025-09-14 at 19 23 19_55216250](https://github.com/user-attachments/assets/c2d4c9c6-ba7e-415d-8b56-b0fc905dd353)
+![WhatsApp Image 2025-09-14 at 19 23 19_c9fbf382](https://github.com/user-attachments/assets/a3f11ee1-bc69-454e-b4bc-9c9a32947047)
+
+![WhatsApp Image 2025-09-14 at 19 23 34_4e8c79f8](https://github.com/user-attachments/assets/ceb8a177-13bb-4598-a15c-65a5b5f59481)
+

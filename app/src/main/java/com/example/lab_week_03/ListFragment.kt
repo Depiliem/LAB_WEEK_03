@@ -1,37 +1,13 @@
 package com.example.lab_week_03
 
-import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.Navigation
 
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-class ListFragment : Fragment(), View.OnClickListener {
-    private var param1: String? = null
-    private var param2: String? = null
-
-    private lateinit var coffeeListener: CoffeeListener
-
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-        if (context is CoffeeListener) {
-            coffeeListener = context
-        } else {
-            throw RuntimeException("Activity must implement CoffeeListener")
-        }
-    }
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
-    }
+class ListFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -49,25 +25,20 @@ class ListFragment : Fragment(), View.OnClickListener {
             view.findViewById(R.id.latte)
         )
 
-        coffeeList.forEach {
-            it.setOnClickListener(this)
-        }
-    }
+        coffeeList.forEach { coffee ->
+            val fragmentBundle = Bundle()
+            fragmentBundle.putInt(COFFEE_ID, coffee.id)
 
-    override fun onClick(v: View?) {
-        v?.let { coffee ->
-            coffeeListener.onSelected(coffee.id)
+            coffee.setOnClickListener(
+                Navigation.createNavigateOnClickListener(
+                    R.id.coffee_id_action,
+                    fragmentBundle
+                )
+            )
         }
     }
 
     companion object {
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            ListFragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
-            }
+        const val COFFEE_ID = "COFFEE_ID"
     }
 }

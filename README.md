@@ -1,3 +1,5 @@
+commit ke 3 saya belum ter push kak jadinya ke skip ke commit ke 4
+
 part 1
 
 ![WhatsApp Image 2025-09-14 at 14 51 48_c98ff859](https://github.com/user-attachments/assets/7fb15a0a-da2b-46c2-8a79-cf0c051fbcac)
